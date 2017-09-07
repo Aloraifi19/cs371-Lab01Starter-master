@@ -7,7 +7,6 @@ package edu.up.cs371.primetester;
  * integer is a prime number.
  */
 public class PrimeTester {
-    public int test;
     /**
      * Tells whether an integer is prime.
      *
@@ -17,7 +16,7 @@ public class PrimeTester {
     public static boolean isPrime(long n) {
         // for now, return a random result
         return Math.random() > 0.5;
-        //int test;
+
 
     }
 }
